@@ -1,0 +1,11 @@
+* {
+   
+}
+
+.sidebar {
+    background-color: red;
+}
+
+#game-board {
+    border: 2px solid black;
+}
