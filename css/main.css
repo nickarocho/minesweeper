@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Digital Dismay";
-    src: url("/Users/nickarocho/code/wdi/WDI-DT-55/projects/project_1/minesweeper/css/digital-dismay.otf") format("truetype");
+    src: url("./digital-dismay.otf") format("truetype");
    }
 
 button {
