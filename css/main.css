@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Digital Dismay";
+    src: url("/Users/nickarocho/code/wdi/WDI-DT-55/projects/project_1/minesweeper/css/digital-dismay.otf") format("truetype");
+   }
+
+button {
+    background-color: slategray;
+    color: white;
+}
+  
+button:hover {
+    background-color: lightgray;
+    color: slategray;
+    cursor: pointer;
+}
+
+#status-bar  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 6px;
+    border-top: 2px solid #7B7B7B;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #7B7B7B;
+}
+
+#timer, #bomb-counter {
+    font-family: 'Digital Dismay';
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 4px 4px 0 7px;
+    line-height: 1em;
+}
+
+#reset {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #7B7B7B;
+    border-bottom: 2px solid #7B7B7B;
+    border-left: 2px solid #ffffff;
+}
+
+#reset:hover {
+    text-align: center;
+    cursor: pointer;
+}
+
+#board {
+    background-color: lightgray;
+}
+
+#board td {
+    height: 17px;
+    width: 17px;
+    background-color: #C0C0C0;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #7B7B7B;
+    border-bottom: 2px solid #7B7B7B;
+    border-left: 2px solid #ffffff;
+}
