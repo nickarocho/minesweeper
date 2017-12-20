@@ -8,11 +8,9 @@ class  Cell {
     }
 
     getAdjCells() {
-        // return an array of adj cells
         var adj = [];
         var lastRow = board.length - 1;
         var lastCol = board[0].length - 1;
-
         if (this.row > 0 && this.col > 0) adj.push(board[this.row - 1][this.col - 1]);
         if (this.row > 0) adj.push(board[this.row - 1][this.col]);
         if (this.row > 0 && this.col < lastCol) adj.push(board[this.row - 1][this.col + 1]);
@@ -35,5 +33,10 @@ class  Cell {
     reveal() {
         this.revealed = true;
         // if this.adjBombs === 0 then call reveal on all adj cells if that cell is not a bomb
+        if (this.adjBombs === 0) {
+            console.log('no bombs')
+        } else {
+            console.log('you dead')
+        }
     }
 }

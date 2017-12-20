@@ -8,6 +8,7 @@ var timer;
 var bombCount;
 var timeElapsed;
 var adjBombs;
+var totalBombs;
 
 /*----- cached element references -----*/
 var boardEl = document.getElementById('board');
@@ -20,11 +21,11 @@ document.getElementById('size-btns').addEventListener('click', function(e) {
 });
 
 boardEl.addEventListener('click', function(e) {
-  // setTimer();
+  setTimer();
   if (e.target.classList.contains('game-cell')) {
-    console.log('clicked')
-    // var rowIdx = parseInt(td.getAttribute('data-row'));
-    // var colIdx = parseInt(td.getAttribute('data-col'));
+    var row = parseInt(e.target.dataset.row);
+    var col = parseInt(e.target.dataset.col);
+    board[row][col].reveal()
   }
   render();
 });
@@ -79,6 +80,13 @@ function buildCells(){
 };
 
 function init() {
+  
+  totalBombs = {
+    '81': 10,
+    '256': 40,
+    '900': 160
+  }
+
   buildTable();
   board = buildArrays();
   buildCells();
@@ -94,6 +102,21 @@ function getBombCount() {
     }).length
   });
   return bombCount.toString().padStart(3, '0');
+};
+
+function addBombs(size) {
+
+
+  var randomPosition = Math.floor(totalBombs[size]*Math.random())
+  var currentTotalBombs = totalBombs[size];  
+  while (currentTotalBombs !== 0) {
+    
+  }
+  
+  if(board[randomPosition] === "empty") {
+     board[randomPosition] = "bomb"
+      totalBombs -= 1
+  }
 };
 
 function render() {
