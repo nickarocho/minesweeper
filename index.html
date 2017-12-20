@@ -5,33 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Minesweeper</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 </head>
 <body>
-
     <div class="sidebar">
-        <p>asdflkjds</p>
-        <div class="difficulty">
-        
-        </div><!-- close difficulty -->
-    </div><!-- close sidebar -->
-    
-    <div>
-        <table id="game-board">
-            <tr>
-                <td>Some text</td>
-            </tr>
-        </table>
-    </div><!-- close gameboard -->
-    
-    <button>Easy</button>
-    <button>Medium</button>
-    <button>Hard</button>
-
-    <script src="main.js"></script>
+            <section id="size-btns">
+                <button id="size-9">Easy</button> 
+                <button id="size-16">Medium</button> 
+                <button id="size-30">Hard</button>
+            </section>
+        </div>
+                <br>
+                <table id="board">
+                </table>
+    <script src="js/cell.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
