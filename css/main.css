@@ -1,7 +1,17 @@
 @font-face {
     font-family: "Digital Dismay";
     src: url("./digital-dismay.otf") format("truetype");
-   }
+}
+
+@font-face {
+    font-family: "Press Start";
+    src: url("./prstart.ttf");
+}
+
+* {
+    -o-user-select: none;
+    user-select: none;
+}
 
 button {
     background-color: slategray;
@@ -53,13 +63,12 @@ button:hover {
 }
 
 #board {
-    border-collapse: collapse;
     background-color: lightgray;
 }
 
 td {
-    height: 18px;
-    width: 18px;
+    height: 19px;
+    width: 19px;
     background-color: #C0C0C0;
     border: 2px solid;
     border-top-color: #ffffff;
@@ -71,8 +80,11 @@ td {
 }
 
 .revealed {
+    height: 19px;
+    width: 19px;
+    font-family: "Press Start";
+    font-size: 13px;
     background-color: #C0C0C0;
     text-align: center;
-    border: 1px solid grey;
-    border-collapse: collapse;
+    border: none;
 }
