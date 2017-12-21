@@ -2,9 +2,10 @@ class  Cell {
     constructor(row, col, board) {
         this.row = row;
         this.col = col;
-        this.bomb = (Math.random() < .155);
+        this.bomb = false;
         this.board = board;
         this.revealed = false;
+        this.flagged = false;
     }
 
     getAdjCells() {
@@ -30,13 +31,23 @@ class  Cell {
         this.adjBombs = adjBombs;
     }
 
-    reveal() {
-        this.revealed = true;
-        // if this.adjBombs === 0 then call reveal on all adj cells if that cell is not a bomb
-        if (this.adjBombs === 0) {
-            console.log('no bombs')
-        } else {
-            console.log('you dead')
+    flag() {
+        if (!this.revealed) {
+            this.flagged = !this.flagged;
+            return this.flagged;
         }
+    }
+
+    reveal() {
+        if (this.revealed && !hitBomb) return;
+        this.revealed = true;
+        if (this.bomb) return true;
+        if (this.adjBombs === 0) {
+            var adj = this.getAdjCells();
+            adj.forEach(function(cell){
+                if (!cell.revealed) cell.reveal();
+            });
+        }
+        return false;
     }
 }

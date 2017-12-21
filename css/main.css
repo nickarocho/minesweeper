@@ -53,15 +53,26 @@ button:hover {
 }
 
 #board {
+    border-collapse: collapse;
     background-color: lightgray;
 }
 
-#board td {
-    height: 17px;
-    width: 17px;
+td {
+    height: 18px;
+    width: 18px;
     background-color: #C0C0C0;
-    border-top: 2px solid #ffffff;
-    border-right: 2px solid #7B7B7B;
-    border-bottom: 2px solid #7B7B7B;
-    border-left: 2px solid #ffffff;
+    border: 2px solid;
+    border-top-color: #ffffff;
+    border-right-color: #7B7B7B;
+    border-bottom-color: #7B7B7B;
+    border-left-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.revealed {
+    background-color: #C0C0C0;
+    text-align: center;
+    border: 1px solid grey;
+    border-collapse: collapse;
 }
