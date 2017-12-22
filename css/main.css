@@ -181,7 +181,7 @@ td {
 
 #window-controls {
     float: right;
-    cursor: pointer !important;
+    cursor: pointer;
 }
 
 #window-title {

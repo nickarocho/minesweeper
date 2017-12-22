@@ -76,3 +76,15 @@ Here are a couple highlights:
 Well you probably are wanting to stop reading this about this thing and start playing it instead.
 
 Jump in the time machine and enjoy playing my first game ever made from scratch, [Minesweeper].(https://nickarocho.github.io/minesweeper/)
+
+# Next Steps!
+This project really was a lot of fun for me. I plan to continue to refine it and refer back to the many lessons learned for years to come.
+
+* Like I mentioned earlier, I would love to make a "display toggle" which flips the CSS to a modernized, clean, flat, minimalist UI.
+* There are some stupid little aesthetic bugs that are making me pull my hair out, like how the cell width/height gets tweaked by a few pixels when the board is totally revealed. I need to fix that.
+* I would also love to flesh out the Windows '95 thing more, making the Start button do something, add a clock to the bottom right corner, and some functional desktop icons.
+* A really difficult feature I would love to tackle would be to make a feature where the user could choose the difficulty by inputing numbers (row/col/mine numbers). 
+
+That'll be for a rainy day.
+
+## Thank you for reading! I hope you enjoy the game :)
