@@ -11,32 +11,22 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1>Minesweeper</h1>    
+<body>   
     <div class="flex-container">
-        <div class="sidebar">
-            <section id="instructions">
-                <h2>Instructions</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no 
-                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem 
-                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-                    nonumy eirmod tempor invidunt ut labore et dolore magna 
-                    aliquyam erat, sed diam voluptua.</p>
-            </section>
-            <section id="size-btns">
-                <button id="size-9">Easy</button> 
-                <button id="size-16">Medium</button> 
-                <button id="size-30">Hard</button>
-            </section>
+        <div class="game-board">
+            <br>
+                <table id="board"></table>
         </div>
     </div>
-<br>
-    <div class="game-board">
-        <table id="board"></table>
-    </div>
+        <section id="footer">
+            <div id="start"><img src="images/start.png"></div>
+            <div id="size-btns">
+                <div id="size-btns"><button id="size-9"><img src="images/easy.png"> Easy</button></div> 
+                <div id="size-btns"><button id="size-16"><img src="images/medium.png"> Medium</button></div> 
+                <div id="size-btns"><button id="size-30"><img src="images/hard.png"> Hard</button></div>
+            </div>
+            <div id="clock"><em>"Shift + Click"</em></strong> to toggle <img src="images/flag.png"></div>
+        </section>
     <script src="js/cell.js"></script>
     <script src="js/main.js"></script>
 </body>

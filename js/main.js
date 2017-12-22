@@ -3,7 +3,7 @@ var bombImage = '<img src="images/bomb.png">';
 var flagImage = '<img src="images/flag.png">';
 var wrongBombImage = '<img src="images/wrong-bomb.png">'
 var sizeLookup = {
-  '9': {totalBombs: 10, tableWidth: '240px'},
+  '9': {totalBombs: 10, tableWidth: '245px'},
   '16': {totalBombs: 40, tableWidth: '420px'},
   '30': {totalBombs: 160, tableWidth: '794px'}
 };
@@ -20,7 +20,7 @@ var colors = [
 ];
 
 /*----- app's state (variables) -----*/
-var size = 9;
+var size = 16;
 var board;
 var bombCount;
 var timeElapsed;
@@ -56,6 +56,7 @@ boardEl.addEventListener('click', function(e) {
       if (hitBomb) {
         revealAll();
         clearInterval(timerId);
+        e.target.style.backgroundColor = 'red';
       }
     }
     winner = getWinner();
@@ -88,6 +89,18 @@ function revealAll() {
 
 function buildTable() {
   var topRow = `
+  <tr>
+    <td class="menu" id="window-title-bar" colspan="${size}">
+      <div id="window-title"><img src="images/mine-menu-icon.png"> Minesweeper</div>
+      <div id="window-controls"><img src="images/window-controls.png"></div>
+    </td>
+  <tr>
+    <td class="menu" id="folder-bar" colspan="${size}">
+      <div id="folder1"><a href="#">Read Me </a></div>
+      <div id="folder2"><a href="#">Source Code</a></div>
+    </td>
+  </tr>
+  </tr>
     <tr>
       <td class="menu" colspan="${size}">
           <section id="status-bar">
@@ -186,7 +199,6 @@ function render() {
     } else if (cell.revealed) {
       if (cell.bomb) {
         td.innerHTML = bombImage;
-        // td.style.backgroundColor = 'red';
       } else if (cell.adjBombs) {
         td.className = 'revealed'
         td.style.color = colors[cell.adjBombs];
