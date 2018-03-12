@@ -4,7 +4,7 @@ Minesweeper... yep, that old classic game you remember playing on good ol' Windo
 
 Minesweeper has its origins in the earliest mainframe games of the 1960s and 1970s. The earliest ancestor of Minesweeper was Jerimac Ratliff's Cube. The basic gameplay style became a popular segment of the puzzle game genre during the 1980s.
 
-Brush up on your Minesweeper history [here].(https://en.wikipedia.org/wiki/Minesweeper_(video_game))
+Brush up on your Minesweeper history [here](https://en.wikipedia.org/wiki/Minesweeper_(video_game)).
 
 Do you know what an actual Minesweeper is? I didn't either until I read [this].(https://en.wikipedia.org/wiki/Minesweeper)
 
