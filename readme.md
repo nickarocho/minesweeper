@@ -10,6 +10,11 @@ Do you know what an actual Minesweeper is? I didn't either until I read [this](h
 
 I remember my first experience with computers in the 90's involved playing this game a lot, so I thought what better game than this to come full circle?
 
+# Getting Started
+Well you probably are wanting to stop reading this about this thing and start playing it instead.
+
+Jump in the time machine and enjoy playing my first game ever made from scratch, [Minesweeper].(https://nickarocho.github.io/minesweeper/)
+
 ## Anyways, here are the basic rules:
 
 ### Basic Gameplay
@@ -71,11 +76,6 @@ Here are a couple highlights:
 8. Creating win/lose logic
 9. Figuring out the control flow of how the functions are all chained together synchronously.
 10. Learning about **recursion** and how to properly write a function that creates such an effect.
-
-# Getting Started
-Well you probably are wanting to stop reading this about this thing and start playing it instead.
-
-Jump in the time machine and enjoy playing my first game ever made from scratch, [Minesweeper].(https://nickarocho.github.io/minesweeper/)
 
 # Next Steps!
 This project really was a lot of fun for me. I plan to continue to refine it and refer back to the many lessons learned for years to come.
