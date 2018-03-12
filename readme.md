@@ -10,11 +10,6 @@ Do you know what an actual Minesweeper is? I didn't either until I read [this](h
 
 I remember my first experience with computers in the 90's involved playing this game a lot, so I thought what better game than this to come full circle?
 
-# Getting Started
-Well you probably are wanting to stop reading this about this thing and start playing it instead.
-
-Jump in the time machine and enjoy playing my first game ever made from scratch, [Minesweeper].(https://nickarocho.github.io/minesweeper/)
-
 ## Anyways, here are the basic rules:
 
 ### Basic Gameplay
@@ -36,6 +31,11 @@ Jump in the time machine and enjoy playing my first game ever made from scratch,
 # My Version
 
 ![UI Screenshot](https://i.imgur.com/LUzYddy.png)
+
+# Getting Started
+Well you probably are wanting to stop reading this about this thing and start playing it instead.
+
+Jump in the time machine and enjoy playing my first game ever made from scratch, [Minesweeper](https://nickarocho.github.io/minesweeper/).
 
 ## Design Choices
 
