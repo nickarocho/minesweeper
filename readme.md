@@ -6,7 +6,7 @@ Minesweeper has its origins in the earliest mainframe games of the 1960s and 197
 
 Brush up on your Minesweeper history [here](https://en.wikipedia.org/wiki/Minesweeper_(video_game)).
 
-Do you know what an actual Minesweeper is? I didn't either until I read [this].(https://en.wikipedia.org/wiki/Minesweeper)
+Do you know what an actual Minesweeper is? I didn't either until I read [this](https://en.wikipedia.org/wiki/Minesweeper).
 
 I remember my first experience with computers in the 90's involved playing this game a lot, so I thought what better game than this to come full circle?
 
