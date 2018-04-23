@@ -8,14 +8,12 @@ Do you know what an actual Minesweeper is? I didn't either until I read [this](h
 
 I remember my first experience with computers in the 90's involved playing this game a lot, so I thought what better game than this to come full circle?
 
-# My Version
+## My Version
 
 ![UI Screenshot](https://i.imgur.com/LUzYddy.png)
 
-# Getting Started
-[Play the Game here](https://nickarocho.github.io/minesweeper/)
-
-## Anyways, here are the basic rules:
+## Getting Started
+[Play the Game here](https://nickarocho.github.io/minesweeper/)!
 
 ### Basic Gameplay
 1. Select your difficulty level.
@@ -33,29 +31,21 @@ I remember my first experience with computers in the 90's involved playing this 
 
 (get it... MINE... SWEEPER...?)
 
-## My Design Choices
-
-I decided to roll with the OG Windows '95 look. I am a firm believer in the "Imitate. Assimilate. Innovate." model of learning, so figured for my first project I needed to walk before I could run and start with the imitation phase of the learning process.
-
-I'm very glad I chose this path, because I learned A LOT by simply trying to match the styles from the original game.
-
-With that said, I am definitely going to create a modernized version of this someday soon.
-
-# Technologies Used
+## Technologies Used
 The good old Three Amigos:
 * HTML
 * CSS
 * JavaScript
 
-## HTML
+### HTML
 As you can see from the source code, the HTML is very concise, as most of the action happens in the JavaScript. Not to mention, the gameboard itself is just a simple table.
 
-## CSS
+### CSS
 I had a lot of fun styling this to the old look of the Windows '95 desktop view. I still want to mess around with it a bit to get it perrrrfect (couldn't find the exact font used by MS).
 
 My biggest challenge with the CSS was figuring out the table styles (borders, td sizes, etc.)
 
-## JavaScript
+### JavaScript
 As this was my first time ever writing a functioning web app using JavaScript, it's not a big surprise that this section was by far the greatest challenge of the project for me. 
 
 Here are a couple highlights:
@@ -73,7 +63,15 @@ Here are a couple highlights:
 9. Figuring out the control flow of how the functions are all chained together synchronously.
 10. Learning about **recursion** and how to properly write a function that creates such an effect.
 
-# Next Steps!
+## My Design Choices
+
+I decided to roll with the OG Windows '95 look. I am a firm believer in the "Imitate. Assimilate. Innovate." model of learning, so figured for my first project I needed to walk before I could run and start with the imitation phase of the learning process.
+
+I'm very glad I chose this path, because I learned A LOT by simply trying to match the styles from the original game.
+
+With that said, I am definitely going to create a modernized version of this someday soon.
+
+## Next Steps!
 This project really was a lot of fun for me. I plan to continue to refine it and refer back to the many lessons learned for years to come.
 
 * Like I mentioned earlier, I would love to make a "display toggle" which flips the CSS to a modernized, clean, flat, minimalist UI.
