@@ -1,14 +1,19 @@
 # Minesweeper
 
-Minesweeper... yep, that old classic game you remember playing on good ol' Windows '95 back in the day (in fact it was implemented in Microsoft's software updates until Windows 8).
-
-Minesweeper has its origins in the earliest mainframe games of the 1960s and 1970s. The earliest ancestor of Minesweeper was Jerimac Ratliff's Cube. The basic gameplay style became a popular segment of the puzzle game genre during the 1980s.
+Minesweeper... yep, that old classic game you remember playing on good ol' Windows '95 back in the day (in fact it was implemented in Microsoft's software updates until Windows 8). Minesweeper has its origins in the earliest mainframe games of the 1960s and 1970s. The earliest ancestor of Minesweeper was Jerimac Ratliff's Cube. The basic gameplay style became a popular segment of the puzzle game genre during the 1980s.
 
 Brush up on your Minesweeper history [here](https://en.wikipedia.org/wiki/Minesweeper_(video_game)).
 
 Do you know what an actual Minesweeper is? I didn't either until I read [this](https://en.wikipedia.org/wiki/Minesweeper).
 
 I remember my first experience with computers in the 90's involved playing this game a lot, so I thought what better game than this to come full circle?
+
+# My Version
+
+![UI Screenshot](https://i.imgur.com/LUzYddy.png)
+
+# Getting Started
+[Play the Game here](https://nickarocho.github.io/minesweeper/)
 
 ## Anyways, here are the basic rules:
 
@@ -28,16 +33,7 @@ I remember my first experience with computers in the 90's involved playing this 
 
 (get it... MINE... SWEEPER...?)
 
-# My Version
-
-![UI Screenshot](https://i.imgur.com/LUzYddy.png)
-
-# Getting Started
-Well you probably are wanting to stop reading this about this thing and start playing it instead.
-
-Jump in the time machine and enjoy playing my first game ever made from scratch, [Minesweeper](https://nickarocho.github.io/minesweeper/).
-
-## Design Choices
+## My Design Choices
 
 I decided to roll with the OG Windows '95 look. I am a firm believer in the "Imitate. Assimilate. Innovate." model of learning, so figured for my first project I needed to walk before I could run and start with the imitation phase of the learning process.
 
