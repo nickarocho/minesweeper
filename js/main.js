@@ -50,7 +50,7 @@ boardEl.addEventListener('click', function(e) {
     var col = parseInt(clickedEl.dataset.col);
     var cell = board[row][col];
     if (e.shiftKey && !cell.revealed && bombCount > 0) {
-      bombCount += cell.flag() ? -1 : 1;
+      bombCount += cell.flag() ? 0 : 1;
     } else {
       hitBomb = cell.reveal();
       if (hitBomb) {
